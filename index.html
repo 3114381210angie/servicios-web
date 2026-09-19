@@ -3,59 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innovación y Soluciones Tecnológicas</title>
+    <title>TechSolutions Pro | Soluciones Digitales Inteligentes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Barra de Navegación -->
     <header class="navbar">
         <div class="logo">
-            <i class="fa-solid fa-code"></i> <span>TechSolutions</span>
+            <i class="fa-solid fa-cube"></i> <span>TechSolutions<span>Pro</span></span>
         </div>
-        <nav>
+        <nav class="nav-links">
             <a href="#inicio">Inicio</a>
             <a href="#servicios">Servicios</a>
-            <a href="#contacto" class="btn-nav">Contacto</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto" class="btn-nav">Contáctanos</a>
         </nav>
     </header>
 
+    <!-- Sección Principal (Hero) -->
     <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Transformamos tus ideas en soluciones digitales</h1>
-            <p>Desarrollo web profesional, optimización de sistemas y páginas modernas diseñadas para destacar en el mercado actual.</p>
-            <a href="#servicios" class="btn-primary">Conoce más</a>
+        <div class="hero-badge">
+            <i class="fa-solid fa-bolt"></i> Innovación y Tecnología de Vanguardia
+        </div>
+        <h1>Elevamos tu negocio al siguiente nivel digital</h1>
+        <p>Diseñamos experiencias web de alto rendimiento, optimización de sistemas y consultoría tecnológica experta para destacar en el mercado actual.</p>
+        <div class="hero-buttons">
+            <a href="#servicios" class="btn-primary">Nuestros Servicios <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contacto" class="btn-secondary">Empezar Proyecto</a>
         </div>
     </section>
 
+    <!-- Sección de Servicios -->
     <section id="servicios" class="services">
-        <h2>Nuestros Servicios</h2>
+        <div class="section-title">
+            <span>¿Qué ofrecemos?</span>
+            <h2>Soluciones diseñadas para tu éxito</h2>
+        </div>
         <div class="services-grid">
             <div class="service-card">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h3>Desarrollo Web</h3>
-                <p>Creamos sitios web responsivos, rápidos y adaptados a las necesidades de tu marca o negocio.</p>
+                <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Desarrollo Web Moderno</h3>
+                <p>Creamos sitios web responsivos, ultrarrápidos y con interfaces atractivas orientadas a convertir visitantes en clientes fieles.</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Diseño UI/UX adaptativo</li>
+                    <li><i class="fa-solid fa-check"></i> Optimización SEO técnica</li>
+                </ul>
             </div>
             <div class="service-card">
-                <i class="fa-solid fa-gears"></i>
-                <h3>Mantenimiento y Soporte</h3>
-                <p>Optimización de equipos, configuraciones de software y soporte técnico especializado.</p>
+                <div class="icon-box"><i class="fa-solid fa-server"></i></div>
+                <h3>Infraestructura & Soporte</h3>
+                <p>Mantenimiento avanzado de equipos, configuración de redes y soluciones de software robustas para garantizar operatividad continua.</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Diagnóstico de sistemas</li>
+                    <li><i class="fa-solid fa-check"></i> Seguridad informática</li>
+                </ul>
             </div>
             <div class="service-card">
-                <i class="fa-solid fa-chart-line"></i>
-                <h3>Consultoría Digital</h3>
-                <p>Asesoría estratégica para potenciar la presencia digital de tus proyectos y emprendimientos.</p>
+                <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Consultoría Tecnológica</h3>
+                <p>Asesoramiento estratégico para digitalizar tus procesos empresariales, automatizar tareas y maximizar el retorno de inversión.</p>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Estrategia digital</li>
+                    <li><i class="fa-solid fa-check"></i> Escalamiento de proyectos</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="contacto" class="contact">
-        <h2>¿Listo para trabajar juntos?</h2>
-        <p>Escríbenos y comencemos a darle vida a tu próximo gran proyecto tecnológico.</p>
-        <a href="mailto:correo@ejemplo.com" class="btn-primary">Enviar un Mensaje</a>
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <span>Compromiso y Calidad</span>
+                <h2>Transformando ideas complejas en realidades digitales</h2>
+                <p>En TechSolutions Pro combinamos la ingeniería de software moderna con un diseño visual impecable. Nuestro enfoque se centra en la eficiencia, la velocidad y la adaptabilidad a las exigencias del entorno tecnológico actual.</p>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Profesionalismo</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Soporte Técnico</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="card-glass">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h4>Seguridad y Confianza</h4>
+                    <p>Estándares rigurosos en cada línea de código desarrollada.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span>Hablemos</span>
+                <h2>¿Tienes un proyecto en mente?</h2>
+                <p>Ponte en contacto con nosotros hoy mismo y descubre cómo podemos impulsar tu marca en el ecosistema digital.</p>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>contacto@techsolutionspro.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Disponible a nivel global</span>
+                </div>
+            </div>
+            <div class="contact-card">
+                <h3>Envíanos un mensaje</h3>
+                <form>
+                    <div class="form-group">
+                        <label>Tu Nombre</label>
+                        <input type="text" placeholder="Ej. Ana Pérez">
+                    </div>
+                    <div class="form-group">
+                        <label>Correo Electrónico</label>
+                        <input type="email" placeholder="correo@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Mensaje</label>
+                        <textarea rows="4" placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
     <footer>
-        <p>&copy; 2026 TechSolutions. Todos los derechos reservados.</p>
+        <p>&copy; 2026 TechSolutions Pro. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
